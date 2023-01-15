@@ -1,0 +1,151 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;font-family: sans-serif;
+}
+
+/* Encabezado */
+
+header{
+    display: flex; /* Esta es la forma para que el header quede horizontal con todos los elementos */
+    min-height: 70px; /*altura del header*/
+    justify-content: end; /*Esta forma separa el encabezado de los demás links del header */
+    padding: 50px 180px 0 180px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 75px;
+    margin-right: 150px;
+    color: #f6a8a9;
+    align-items: center;    
+}
+
+header a:hover {
+    color: white;
+    transition: .1s;
+}
+
+/* Primer foto */
+
+body img{
+    width: 100%;
+    object-fit:cover;
+}
+
+.first{
+    background-color: black ;
+}
+
+
+body .img1{
+    clip-path: ellipse(5000px 3000px at 17% 35%);  
+}
+
+.Servicio1{
+    font-family:sans-serif;
+    font-size: 500px;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50% -50%);
+    color: white;
+}
+
+.parrafo1{
+   justify-content: center;
+   font-family:sans-serif;
+   font-size: 180px;
+   position: absolute;
+   top: 65%;
+   left: 60%;
+   transform: translate(-50% -50%);
+   color: white;
+
+}
+
+/* Segunda foto */
+.second{
+    background-color: #f6a8a9;
+}
+
+
+.Servicio2 {
+    font-family:sans-serif;
+    font-size: 500px;
+    position: absolute;
+    top: 170%;
+    left: 8%;
+    transform: translate(-50% -50%);
+    color: black;
+}
+
+.parrafo2{
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: 150px;
+    position: absolute;
+    top: 185%;
+    left: 8%;
+    transform: translate(-50% -50%);
+    color: grey;
+ }
+body .img2{
+    clip-path: ellipse(5100px 3000px at 90% 48%);  
+}
+
+
+/* Tercer foto */
+.three{
+    background-color: black;
+}
+.Servicio3 {
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: 500px;
+    position: absolute;
+    top: 330%;
+    left: 60%;
+    transform: translate(-50% -50%);
+    color: white;
+}
+
+.parrafo3{
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: 150px;
+    position: absolute;
+    top: 350%;
+    left: 60%;
+    transform: translate(-50% -50%);
+    color: white;
+}
+
+body .img3{
+    clip-path: ellipse(5100px 3000px at 10% 41%);  
+}
+
+/* Numerales de los titulos */
+span {
+    color: #f6a8a9;
+}
+.Span2{
+    color: grey;
+}
+
+/* Footer */
+
+Footer{
+    background-color: #f6a8a9;
+    justify-content: center;
+}
+
+footer p{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight:500px;
+
+}
+
+.logoredes{
+    width: 2.5%;
+}
